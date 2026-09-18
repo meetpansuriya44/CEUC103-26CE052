@@ -1,0 +1,53 @@
+//Practical 2.2
+#include <iostream>
+#include <iomanip>
+#include <stdio.h>
+using namespace std;
+
+int main()
+
+{
+    int semester;
+    long long int phone;  
+    string sn,branch,en;
+
+
+    //Display the Student Record Management System on Screen
+    cout<<"***********************************************";
+    cout<<"\nSTUDENT RECORD MANAGEMENT SYSTEM";
+    cout<<"\n***********************************************";
+
+    //Take input From user of Registration Informations
+    cout<<"\nEnter Enrollment Number :";
+    cin>>en;
+
+    cout<<"\nEnter Student Name :";
+    cin>>sn;
+
+    cout<<"\nEnter Branch :";
+    cin>>branch;
+
+    cout<<"\nEnter Semester :";
+    cin>>semester;
+
+    cout<<"\nEnter Mobile Number :";
+     cin>>phone;
+    
+    
+    //Display Student Information on the Screen
+    cout<<"\n-----------------------------------------------";
+    cout<<"\nSTUDENT Information";
+    cout<<"\n-----------------------------------------------";
+
+    //Display Student Registration data 
+    cout<<"\nEnrollment Number :"<<en<<endl;
+    cout<<"Student Name :"<<sn<<endl;
+    cout<<"Branch :"<<branch<<endl;
+    cout<<"Semester :"<<semester<<endl;
+    cout<<"Phone Number :"<<phone<<endl;
+    cout<<"-------------------------------";
+
+
+    
+    return 0;
+}
